@@ -1,0 +1,140 @@
+html {
+    box-sizing: border-box;
+}
+ 
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    width: 100%;
+    white-space: nowrap;
+}
+
+header, footer, nav {
+    display: flex;
+    align-items: center;
+}
+
+header, footer {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header {
+    padding-top: 15px;
+}
+
+.header-left, .footer-left{
+    margin-right: auto;
+}
+
+.header-left {
+    opacity: 0.8;
+}
+
+#appicon {
+    width: 30px;
+    height: 30px;
+    background-image: url(http://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position: -132px -38px;
+    opacity: .55;
+    background-size: 528px 68px;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+    font-size: 13px;
+}
+
+#sign-in-btn {
+    line-height: 30px;
+    color: white;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    padding: 0 12px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: 1px solid #4285f4;
+}
+
+.logo {
+    display: block;
+    margin: 158px auto 30px auto;
+}
+
+.search-bar {
+    height: 44px;
+    margin: 0 auto;
+    width: 582px;
+    position: relative;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+}
+.search-text {
+    height: inherit;
+    display: inline-block;
+    width: inherit;
+    font-size: 16px;
+    padding: 5px 47.5px;
+    border: none;
+    background-color: transparent;
+}
+
+.mag-glass {
+    display: inline-block;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 546px;
+    top: 12px;
+    background-image: url(http://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position: -250px -36px;
+    opacity: 0.3;
+}
+
+.mic {
+    display: inline-block;
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    right: 12px;
+    top: 10px;
+    background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    background-size: 24px 24px;
+    cursor: pointer;
+}
+
+.btns {
+    display: flex;
+    width: 487px;
+    height: 36px;
+    margin: 29px auto;
+    justify-content: center;
+}
+
+.google-search, .feeling-lucky {
+    line-height: 27px;
+    height: 36px;
+    margin: 0px 4px;
+    border: 0;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    padding: 0 16px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #f2f2f2;
+    line-height: 40px;
+    font-size: 14px;
+    border-top: 1px solid #e4e4e4;
+    position: fixed;
+    bottom: 0;
+}

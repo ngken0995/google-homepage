@@ -1,0 +1,1 @@
+Trying to make it look like google.com, not actually function like it and it doesn’t have to be spaced exactly the same way to the pixel. 
